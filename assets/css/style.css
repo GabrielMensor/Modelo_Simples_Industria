@@ -1,0 +1,46 @@
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+.p {
+    display: flex;
+    justify-content: center;
+}
+.image-icon {
+    height: 70px;
+    width: 70px;
+}
+.quadrado {
+    justify-content: center;
+    display: flex;
+    width: 170px;
+    height: 124px;
+    align-items: center;
+    margin-inline: 20px;
+}
+.quadrado:hover {
+    background-color: rgb(70, 68, 68);
+    cursor: pointer;
+}
+#colunas {
+    display: flex;
+    justify-content: center;
+}
+.column-title {
+    justify-content: center;
+    display: flex;
+}
+.legenda {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    margin-inline: auto;
+}
+.tdvazia {
+    border-collapse: collapse;
+    border: none;
+}
+table {
+    border: none;
+}
